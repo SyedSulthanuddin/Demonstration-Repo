@@ -1,0 +1,361 @@
+h1 {
+
+    text-align: center;
+    color: red;
+    text-shadow: 10PX 4PX 12PX rgb(87, 33, 33);
+}
+
+h2 {
+    text-align: center;
+
+    color: blue;
+}
+
+h3 {
+
+    text-align: center;
+
+    color: rgb(0, 128, 55);
+
+}
+
+.circle-img{
+
+    border-radius: 50%;
+}
+
+.cat-img{
+
+    border-radius: 30%;
+    border-color: blue;
+
+    padding: 20px;
+    
+}
+
+img {
+
+    box-shadow: 5px 15px 10px rgb(192, 20, 20);
+}
+
+a {
+
+    text-decoration-line: none;
+} 
+
+ nav ul {
+
+    list-style: none;
+}
+
+nav li {
+
+    display: inline-block;
+    padding: 10px;
+}
+
+.title {
+
+    color: rgb(30, 0, 255);
+}
+
+#italic {
+
+    color: pink;
+}
+.input-field {
+
+    margin: 30px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 30px;
+}
+
+nav {
+    background-color: rgb(226, 192, 43);
+
+    text-align: center;
+}
+
+
+.nav-wrapper {
+    background-color: blue;
+}
+
+.container {
+
+    border: 10px dashed  red;
+
+    margin: 10px 50px 10px 50px;
+
+    padding: 5px;
+  
+}
+
+.box {
+
+    
+    display: inline-block;
+   
+    height: 200px;
+
+    width: 200px;
+
+    background: blue;
+
+    margin: 10px;
+
+}
+
+
+@keyframes fadeMe {
+
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+#box1 {
+
+    animation-name: fadeMe;
+
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+
+    0%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+#box2 {
+
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, purple,orange, pink,purple);
+    /* background-color: red;
+} */
+}
+
+@keyframes rotation1 {
+
+    0%{transform: rotate(360deg);}
+    50%{transform: rotate(1800deg);}
+    100%{transform: rotate(90deg);}
+
+}
+
+#box3 {
+
+    animation-name: rotation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, rgb(0, 128, 34),rgb(208, 0, 255), rgb(198, 192, 255),rgb(128, 62, 0));
+    background-color: rgb(0, 255, 42);
+}
+
+/* form input {
+    display: block;
+    margin: 30px;
+}
+
+form textarea {
+    display: block;
+    margin: 30px;
+}
+
+form button {
+    display: block;
+    margin: 30px;
+} */
+
+form input, textarea, button {
+    display: block;
+    margin: 30px;
+}
+
+
+
+@keyframes rotation2 {
+
+    0%{transform: rotate(090deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+
+}
+
+#box7 {
+
+    animation-name: rotation2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, rgb(64, 0, 128),rgb(0, 76, 255), rgb(192, 255, 194),rgb(128, 62, 0));
+    background-color: rgb(255, 162, 0);
+}
+
+@keyframes getBigger {
+
+    0%{transform: scale(.1)}
+    50%{transform: scale(2);}
+    100%{transform: scale(.1)}
+
+}
+#box5 {
+
+    animation: getBigger 3s 2s ease-in-out;
+    border-radius: 50%;
+    background-color: red;
+    background-image: radial-gradient(circle, green, rgb(223, 111, 13), white);
+    
+}
+
+@keyframes changecolors {
+
+    0% {background-color: rgb(202, 19, 19);}
+    25% {background-color: rgb(38, 134, 60);}
+    50% {background-color: rgb(237, 22, 237);}
+    75% {background-color: rgb(31, 184, 112);}
+    100% {background-color: grey;}
+}
+
+#box6 {
+
+    animation: changecolors 3s 1s infinite;
+}
+
+@keyframes moveBox{
+
+ 0%{left: 0px; top: 0px;}
+ 25%{left: 100px; top: 0px;}
+ 50%{left: 100px; top: 200px;}
+ 75%{left: 0px; top: 200px;}
+ 100%{left: 0px; top: 0px;}
+
+}
+
+#box4 {
+    position: relative;
+    background-color: red;
+    animation: moveBox 5s 1s infinite;
+}
+
+.syed {
+
+    display: inline-block;
+   
+    height: 200px;
+
+    width: 200px;
+
+    background: rgb(0, 255, 47);
+
+    /* display: inline-block; */
+
+    margin: 10px 0px;
+}
+
+.flex 
+{
+
+    margin: 30px;
+border: 3px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+/* flex-direction: row-reverse; */
+
+}
+
+body {
+    margin: 10px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .cox {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 100px ) ;
+    grid-template-rows: repeat(3, [row] auto  );
+    background-color: #fff;
+    color: #444;
+  }
+
+  .Box {
+    background-color: #15deca;
+    color: #e40e0e;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    z-index:10;
+
+  }
+
+  .a {
+    grid-column: col / span  2;
+    grid-row: row ;
+    justify-content: center;
+  }
+  .b {
+    grid-column: col 3 / span  3 ;
+    grid-row: row ;
+    justify-content: center;
+  }
+  .c {
+    grid-column: col ;
+    grid-row: row 2 ;
+  }
+  .d {
+    grid-column: col 2 / span  3 ;
+    grid-row: row 2 ;
+  }
+
+  .e {
+    grid-column: col / span  5;
+    grid-row: row 3;
+  }
+
+  .f {
+    grid-column: col 3 / span 3;
+    grid-row: row 2  ;
+    background-color: rgba(99, 10, 224, 0.5);
+    z-index: 20;
+  }

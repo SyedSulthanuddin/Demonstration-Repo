@@ -1,0 +1,200 @@
+
+INDEX page
+--------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Practice</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <ul>
+               <a href="index.html"><li>Home</li></a>
+              <a href="about.html"><li>About</li></a> 
+               <a href="Contact.html"><li>Contact page</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+
+        <h1>
+            my web page
+        </h1>
+        <h2>
+            This is h2
+        </h2>
+    </h1>
+    <h3>Here is h3</h3>
+    <h4>Hello</h4>
+    <h5>hello world</h5>
+    <h6>syed sulthanuddin</h6>
+
+    <div>
+        <h2>what are divs?</h2>
+     <h5>Div are used as containers and helps us to create pages</h5>
+    </div>
+    
+    <section>
+        <p>This is a paragraph with normal size text</p>
+        <i>This is italic writing</i>
+        <em>This is emphasized text</em>
+        <br>
+
+        <br>
+        <strong>This element uses a bold text</strong>
+        <br>
+        <br>
+        <b>This is bold text</b>
+    </section>
+
+    <a href="https://amazon.com">Amazon website</a>
+
+    <a href="about.html">about</a>
+</body>
+</html>
+
+
+----------------------------------------
+cONTACT page
+---------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+</head>
+
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+               <a href="index.html"><li>Home</li></a>
+              <a href="about.html"><li>About</li></a> 
+               <a href="Contact.html"><li>Contact page</li></a>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contact me</h1>
+    <p>this is contact page</p>
+</body>
+</html>
+
+----------------------
+ABOUT page
+
+------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My About Page</title>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+               <a href="index.html"><li>Home</li></a>
+              <a href="about.html"><li>About</li></a> 
+               <a href="Contact.html"><li>Contact page</li></a>
+            </ul>
+        </nav>
+    </header>
+    <h1>About</h1>
+    <p>Welcome to my about page</p>
+
+
+
+</body>
+</html>
+
+
+------------
+images
+-------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Practice</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <ul>
+               <a href="index.html"><li>Home</li></a>
+              <a href="about.html"><li>About</li></a> 
+               <a href="Contact.html"><li>Contact page</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+
+        <h1>
+            my web page
+        </h1>
+        <h2>
+            This is h2
+        </h2>
+    </h1>
+    <h3>Here is h3</h3>
+    <h4>Hello</h4>
+    <h5>hello world</h5>
+    <h6>syed sulthanuddin</h6>
+
+    <div>
+        <h2>what are divs?</h2>
+     <h5>Div are used as containers and helps us to create pages</h5>
+    </div>
+    
+    <section>
+        <p>This is a paragraph with normal size text</p>
+        <i>This is italic writing</i>
+        <em>This is emphasized text</em>
+        <br>
+
+        <br>
+        <strong>This element uses a bold text</strong>
+        <br>
+        <br>
+        <b>This is bold text</b>
+    </section>
+
+    <a href="https://amazon.com">Amazon website</a>
+
+    <a href="about.html">about</a>
+
+    
+    <a href="https://google.com"><img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403" alt="CAT" height="300" width="600">
+    </a>
+    <img src="CAT01" alt="CAT01" height="300">
+
+
+</body>
+
+</html>
